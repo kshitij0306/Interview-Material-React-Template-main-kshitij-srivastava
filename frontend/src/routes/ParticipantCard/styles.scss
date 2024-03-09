@@ -1,0 +1,36 @@
+@import '../global_styles.scss';
+
+
+.participant-hover-card {
+    padding: 1em;
+    width: 50%;
+    margin: auto;
+    height: 70vh;
+    overflow-y: scroll;
+    background: $OffWhite;
+    .participant-name {
+        color: $Body;
+        border-bottom: 0.5px solid $Labels;
+    }
+
+    .diagnoses {
+        background: $InputBack;
+
+        .description {
+            color: $Black;
+        }
+
+        .code {
+            color: $Body
+        }
+    }
+}
+
+.back-button {
+    background: $IntusBlue !important;
+    border: none;
+
+    h3 {
+        margin: 0;
+    }
+}

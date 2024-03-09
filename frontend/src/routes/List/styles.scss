@@ -1,0 +1,24 @@
+@import '../global_styles.scss';
+
+.list-heading {
+    color: $IntusNavy;
+}
+
+
+.card-css {
+    width: 75%;
+    margin: auto;
+    height: 70vh;
+    overflow-y: scroll;
+
+    .list-header {
+        border-bottom: 0.75px solid $Labels;
+    }
+
+    
+    .sort-image {
+        cursor: pointer;
+        margin-top: -0.5em;
+        margin-left: 0.5em;
+    }
+}
